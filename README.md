@@ -25,3 +25,4 @@ Overview of Git Commands
 * `git Branching` - List local branches, highlight checked-out branch
 * `git branch branchName` - Create branch 'branchName'
 * `git checkout branchName` - Move to branch 'branchName'
+* `git pull origin master` - Pull remote `master` into local branch (resolve conflicts)
