@@ -1,6 +1,6 @@
 ## Git Branching
 
-###Overview
+### Overview
 
 Overview of Git Commands
 
