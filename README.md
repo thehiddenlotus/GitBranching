@@ -7,12 +7,13 @@ Overview of Git Commands
 ### Basic Commands
 
 * `git init` - Initialize local git repository
-* `git add` - Stage local working directory for commit
+* `git add .` - Stage local working directory for commit
 * `git commit` - Commit staged files to local repository
 * `git status` - Show status of repository
 * `git rm --cached fileName` - Remove fileName from commit index
 * `git log` - Show commit history
 * `git log --oneline` - Show commit history (compact)
+* `git config --list` - List current git configuration
 
 ### Remote Repository Commands
 
@@ -22,7 +23,7 @@ Overview of Git Commands
 
 ### Branching Commands
 
-* `git Branching` - List local branches, highlight checked-out branch
+* `git branch` - List local branches, highlight checked-out branch
 * `git branch branchName` - Create branch 'branchName'
 * `git checkout branchName` - Move to branch 'branchName'
-* `git pull origin master` - Pull remote `master` into local branch (resolve conflicts)
+* `git checkout -b branchName` - Create & Move to branch 'branchName'
